@@ -21,6 +21,10 @@ export default function MuTypo() {
        <Link to='/stack'>StackLayout</Link>
        <Link to='/grid'>GridLayout</Link>
        <Link to='/menu'>MenuList</Link>
+       <Link to='/image'>ImageList</Link>
+       <Link to='/nav'>Navbar</Link>
+       <Link to='/responsive'>Responsive</Link>
+       <Link to='/card'>Card</Link>
      </Stack>
     
       <hr />

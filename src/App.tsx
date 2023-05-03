@@ -14,7 +14,10 @@ import BoxLayout from "./component/BoxLayout"
 import StackLayout from "./component/StackLayout"
 import GridLayout from "./component/GridLayout"
 import MenuComponent from "./component/MenuComponent"
-
+import ImageLists from "./component/ImageLists"
+import NavBar from "./component/NavBar"
+import Responsiveness from "./component/Responsiveness"
+import Cardui from "./component/Cardui"
 
 function App() {
  
@@ -36,6 +39,10 @@ function App() {
            <Route path={'/stack'} element={<StackLayout />}/>
            <Route path={'/grid'} element={<GridLayout />}/>
            <Route path={'/menu'} element={<MenuComponent />}/>
+           <Route path={'/image'} element={<ImageLists />}/>
+           <Route path={'/nav'} element={<NavBar />}/>
+           <Route path={'/responsive'} element={<Responsiveness />}/>
+           <Route path={'/card'} element={<Cardui />}/>
       </Routes>
     </BrowserRouter>
   </Box>  
